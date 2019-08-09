@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#46495B"
+    android:orientation="vertical"
+    tools:context=".MoedaActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="749.61"
+            android:textColor="#fff"
+            android:textSize="50dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="107dp"
+            android:layout_marginTop="30dp"
+            android:text="$"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="107dp"
+            android:text="5,47(+1.20%)"
+            android:textColor="#46C090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THIS MONTH"
+            android:textColor="#8A8383" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#636574" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/ic_keyboard_arrow_right_dp" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/icone_estados_unidos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="17dp"
+                android:text="Dollar"
+                android:textColor="#FFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="113dp"
+                android:layout_marginTop="16dp"
+                android:text="|"
+                android:textColor="#928F8F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="22dp"
+                android:text="product"
+                android:textColor="#928F8F"
+                android:textSize="14dp" />
+
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#505461" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:text="3,345,016"
+            android:textSize="22dp"
+            android:textColor="#CAC6C6"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2,212"
+            android:layout_marginTop="42dp"
+            android:textSize="22dp"
+            android:layout_marginLeft="169dp"
+            android:textColor="#CAC6C6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ 2,328.2"
+            android:layout_marginTop="42dp"
+            android:textSize="22dp"
+            android:layout_marginLeft="288dp"
+            android:textColor="#46C090"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Market"
+            android:textColor="#928F8F"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="6dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="-10dp"
+            android:text="|"
+            android:textColor="#928f8f"
+            android:textSize="67dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="20dp"
+            android:text="Float"
+            android:textColor="#928F8F"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="6dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="-10dp"
+            android:text="|"
+            android:textColor="#928f8f"
+            android:textSize="67dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="20dp"
+            android:text="Profit"
+            android:textColor="#928F8F"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="#636574" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/icone_estados_unidos" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Stock"
+                    android:textColor="#FFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="113dp"
+                    android:layout_marginTop="16dp"
+                    android:text="|"
+                    android:textColor="#928F8F"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="124dp"
+                    android:layout_marginTop="22dp"
+                    android:text="account"
+                    android:textColor="#928F8F"
+                    android:textSize="14dp" />
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#505461" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:text="1,004,075"
+                android:textSize="22dp"
+                android:textColor="#CAC6C6"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4,598"
+                android:layout_marginTop="42dp"
+                android:textSize="22dp"
+                android:layout_marginLeft="169dp"
+                android:textColor="#CAC6C6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 477.2"
+                android:layout_marginTop="42dp"
+                android:textSize="22dp"
+                android:layout_marginLeft="288dp"
+                android:textColor="#B84747"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Market"
+                android:textColor="#928F8F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="6dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-10dp"
+                android:text="|"
+                android:textColor="#928f8f"
+                android:textSize="67dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="182dp"
+                android:layout_marginTop="20dp"
+                android:text="Float"
+                android:textColor="#928F8F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="6dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-10dp"
+                android:text="|"
+                android:textColor="#928f8f"
+                android:textSize="67dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="315dp"
+                android:layout_marginTop="20dp"
+                android:text="Profit"
+                android:textColor="#928F8F"
+                android:textSize="16dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:layout_marginTop="-30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="#636574" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/hk_flag" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Stock"
+                    android:textColor="#FFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="113dp"
+                    android:layout_marginTop="16dp"
+                    android:text="|"
+                    android:textColor="#928F8F"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="124dp"
+                    android:layout_marginTop="22dp"
+                    android:text="account"
+                    android:textColor="#928F8F"
+                    android:textSize="14dp" />
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#505461" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:text="1,409,743"
+                android:textSize="22dp"
+                android:textColor="#CAC6C6"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="205"
+                android:layout_marginTop="42dp"
+                android:textSize="22dp"
+                android:layout_marginLeft="179dp"
+                android:textColor="#CAC6C6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ 2,447.3"
+                android:layout_marginTop="42dp"
+                android:textSize="22dp"
+                android:layout_marginLeft="288dp"
+                android:textColor="#46C090"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Market"
+                android:textColor="#928F8F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="6dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-10dp"
+                android:text="|"
+                android:textColor="#928f8f"
+                android:textSize="67dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="182dp"
+                android:layout_marginTop="20dp"
+                android:text="Float"
+                android:textColor="#928F8F"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="6dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-10dp"
+                android:text="|"
+                android:textColor="#928f8f"
+                android:textSize="67dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="315dp"
+                android:layout_marginTop="20dp"
+                android:text="事前通販"
+                android:textColor="#928F8F"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>
